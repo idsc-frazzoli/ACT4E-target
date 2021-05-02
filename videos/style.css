@@ -4,12 +4,6 @@ body {
     font-size: 0.9rem;
 }
 
-#app {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-
 #toolbar {
     display: flex;
     align-items: center;
@@ -64,4 +58,38 @@ body {
 #viewport canvas {
     width: 100%;
     box-shadow: 0 2px 5px gray;
+}
+
+iframe {
+    width: 70vw;
+    height: 50vw;
+    padding-left: 20em;
+}
+
+#app {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 100vh; */
+    /* width: 70vw; */
+    padding-left: 20em;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.previous {
+    position: absolute;
+    left: 2em;
+    top: 1em;
+}
+
+div.next {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+}
+
+div.up {
+    position: absolute;
 }
